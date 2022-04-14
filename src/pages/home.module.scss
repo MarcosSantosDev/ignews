@@ -8,12 +8,11 @@
   align-items: center;
   justify-content: space-between;
 
-
   img {
     max-height: calc(100vh - 200px);
     height: 100%;
   }
-};
+}
 
 .hero {
   max-width: 600px;
@@ -44,5 +43,8 @@
       font-weight: bold;
     }
   }
-}
 
+  button {
+    margin-top: 2.5rem;
+  }
+}
