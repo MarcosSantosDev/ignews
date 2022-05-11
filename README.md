@@ -49,7 +49,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Technologies used:
 - Stripe (payments API);
-- NextAuth (oAuth Service);
+- NextAuth (OAuth Service);
+- Faunadb (Database)
 
 
 Documentation in progress...
