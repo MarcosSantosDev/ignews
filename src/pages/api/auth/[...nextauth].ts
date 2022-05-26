@@ -7,8 +7,8 @@ import { faunaClient } from "../../../services/fauna"
 export default NextAuth({
   providers: [
     GithubProvider({
-      clientId: process.env.GITHUB_ID_KEY,
-      clientSecret: process.env.GITHUB_SECRET_KEY,
+      clientId: process.env.GITHUB_CLIENT_ID_KEY,
+      clientSecret: process.env.GITHUB_CLIENT_SECRET_KEY,
       authorization: {
         params: {
           scope: 'read:user'
