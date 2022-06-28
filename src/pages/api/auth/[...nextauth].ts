@@ -19,7 +19,7 @@ export default NextAuth({
   callbacks: {
     async session({ session }) {
       try {
-        const userActiveSubscription = await faunaClient.query(
+        const activeSubscription = await faunaClient.query(
           faunadb.query.Get(
             faunadb.query.Intersection([
               faunadb.query.Match(
@@ -44,12 +44,12 @@ export default NextAuth({
         
         return {
           ...session,
-          userActiveSubscription
+          activeSubscription
         };        
       } catch {
         return {
           ...session,
-          userActiveSubscription: null,
+          activeSubscription: null,
         }
       }
     },
