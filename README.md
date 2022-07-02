@@ -47,10 +47,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 > This application works with external integrations, and to work correctly it is necessary to inform some keys referring to the consumed services. __Check the .env file!__
 
 
-Technologies used:
-- Stripe (payments API);
-- NextAuth (OAuth Service);
-- Faunadb (Database)
-
-
-Documentation in progress...
+*Project to study or nextjs*
