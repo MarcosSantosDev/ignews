@@ -47,4 +47,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 > This application works with external integrations, and to work correctly it is necessary to inform some keys referring to the consumed services. __Check the .env file!__
 
 
-*Project to study or nextjs*
+
+**Project to study or nextjs**
